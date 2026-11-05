@@ -4,12 +4,12 @@ import streamlit.components.v1 as components
 from pathlib import Path
 
 st.set_page_config(
-    page_title="Plain Language Summary Studio",
+    page_title="Plain Language Summary Studio (PLSS)",
     layout="wide"
 )
 
 # Document upload section
-st.title("Plain Language Summary Studio")
+st.title("Plain Language Summary Studio (PLSS)")
 st.subheader("Upload documents for comparison")
 
 st.write(
