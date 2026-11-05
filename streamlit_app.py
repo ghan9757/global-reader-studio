@@ -4,12 +4,12 @@ import streamlit.components.v1 as components
 from pathlib import Path
 
 st.set_page_config(
-    page_title="Global Reader Understanding Studio",
+    page_title="Plain Language Summary Studio",
     layout="wide"
 )
 
 # Document upload section
-st.title("Global Reader Understanding Studio")
+st.title("Plain Language Summary Studio")
 st.subheader("Upload documents for comparison")
 
 st.write(
